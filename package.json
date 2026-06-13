@@ -12,7 +12,9 @@
     "dev:build": "npm run _hugo-dev --",
     "dev:serve": "npm run _hugo-dev -- server --watch=false",
     "dev:site": "npm run _hugo-dev -- server",
-    "update:hugo": "npm install --save-dev --save-exact hugo-extended@latest"
+    "update:dep": "npm install --save-dev autoprefixer@latest postcss-cli@latest",
+    "update:hugo": "npm install --save-dev --save-exact hugo-extended@latest",
+    "update:pkgs": "npx npm-check-updates -u"
   },
   "devDependencies": {
     "hugo-extended": "0.147.6"
